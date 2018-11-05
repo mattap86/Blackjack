@@ -87,8 +87,10 @@ body {
 }
 
 .winner {
+    width: 50%;
     top: 70%;
-    left: 15%;
+    left: 25%;
+    text_align: center;
 }
 
 img {
