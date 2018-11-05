@@ -1,61 +1,26 @@
 <?php
 
-//a set of variables with images associated to then display on dealing
-$twoOfSpades = 'cardDeck/2S.png';
-$threeOfSpades = 'cardDeck/3S.png';
-$fourOfSpades = 'cardDeck/4S.png';
-$fiveOfSpades = 'cardDeck/5S.png';
-$sixOfSpades = 'cardDeck/6S.png';
-$sevenOfSpades = 'cardDeck/7S.png';
-$eightOfSpades = 'cardDeck/8S.png';
-$nineOfSpades = 'cardDeck/9S.png';
-$tenOfSpades = 'cardDeck/10S.png';
-$jackOfSpades = 'cardDeck/JS.png';
-$queenOfSpades = 'cardDeck/QS.png';
-$kingOfSpades = 'cardDeck/KS.png';
-$aceOfSpades = 'cardDeck/AS.png';
-
-$twoOfHearts = 'cardDeck/2H.png';
-$threeOfHearts = 'cardDeck/3H.png';
-$fourOfHearts = 'cardDeck/4H.png';
-$fiveOfHearts = 'cardDeck/5H.png';
-$sixOfHearts = 'cardDeck/6H.png';
-$sevenOfHearts = 'cardDeck/7H.png';
-$eightOfHearts = 'cardDeck/8H.png';
-$nineOfHearts = 'cardDeck/9H.png';
-$tenOfHearts = 'cardDeck/10H.png';
-$jackOfHearts = 'cardDeck/JH.png';
-$queenOfHearts = 'cardDeck/QH.png';
-$kingOfHearts = 'cardDeck/KH.png';
-$aceOfHearts = 'cardDeck/AH.png';
-
-$twoOfClubs = 'cardDeck/2C.png';
-$threeOfClubs = 'cardDeck/3C.png';
-$fourOfClubs = 'cardDeck/4C.png';
-$fiveOfClubs = 'cardDeck/5C.png';
-$sixOfClubs = 'cardDeck/6C.png';
-$sevenOfClubs = 'cardDeck/7C.png';
-$eightOfClubs = 'cardDeck/8C.png';
-$nineOfClubs = 'cardDeck/9C.png';
-$tenOfClubs = 'cardDeck/10C.png';
-$jackOfClubs = 'cardDeck/JC.png';
-$queenOfClubs = 'cardDeck/QC.png';
-$kingOfClubs = 'cardDeck/KC.png';
-$aceOfClubs = 'cardDeck/AC.png';
-
-$twoOfDiamonds = 'cardDeck/2D.png';
-$threeOfDiamonds = 'cardDeck/3D.png';
-$fourOfDiamonds = 'cardDeck/4D.png';
-$fiveOfDiamonds = 'cardDeck/5D.png';
-$sixOfDiamonds = 'cardDeck/6D.png';
-$sevenOfDiamonds = 'cardDeck/7D.png';
-$eightOfDiamonds = 'cardDeck/8D.png';
-$nineOfDiamonds = 'cardDeck/9D.png';
-$tenOfDiamonds = 'cardDeck/10D.png';
-$jackOfDiamonds = 'cardDeck/JD.png';
-$queenOfDiamonds = 'cardDeck/QD.png';
-$kingOfDiamonds = 'cardDeck/KD.png';
-$aceOfDiamonds = 'cardDeck/AD.png';
+//a set of variables with values of image paths to be displayed on dealing
+$cardFaces = [
+    $twoOfSpades = 'cardDeck/2S.png', $threeOfSpades = 'cardDeck/3S.png', $fourOfSpades = 'cardDeck/4S.png',
+    $fiveOfSpades = 'cardDeck/5S.png', $sixOfSpades = 'cardDeck/6S.png', $sevenOfSpades = 'cardDeck/7S.png',
+    $eightOfSpades = 'cardDeck/8S.png', $nineOfSpades = 'cardDeck/9S.png', $tenOfSpades = 'cardDeck/10S.png',
+    $jackOfSpades = 'cardDeck/JS.png', $queenOfSpades = 'cardDeck/QS.png', $kingOfSpades = 'cardDeck/KS.png',
+    $aceOfSpades = 'cardDeck/AS.png', $twoOfHearts = 'cardDeck/2H.png', $threeOfHearts = 'cardDeck/3H.png',
+    $fourOfHearts = 'cardDeck/4H.png', $fiveOfHearts = 'cardDeck/5H.png', $sixOfHearts = 'cardDeck/6H.png',
+    $sevenOfHearts = 'cardDeck/7H.png', $eightOfHearts = 'cardDeck/8H.png', $nineOfHearts = 'cardDeck/9H.png',
+    $tenOfHearts = 'cardDeck/10H.png', $jackOfHearts = 'cardDeck/JH.png', $queenOfHearts = 'cardDeck/QH.png',
+    $kingOfHearts = 'cardDeck/KH.png', $aceOfHearts = 'cardDeck/AH.png', $twoOfClubs = 'cardDeck/2C.png',
+    $threeOfClubs = 'cardDeck/3C.png', $fourOfClubs = 'cardDeck/4C.png', $fiveOfClubs = 'cardDeck/5C.png',
+    $sixOfClubs = 'cardDeck/6C.png', $sevenOfClubs = 'cardDeck/7C.png', $eightOfClubs = 'cardDeck/8C.png',
+    $nineOfClubs = 'cardDeck/9C.png', $tenOfClubs = 'cardDeck/10C.png', $jackOfClubs = 'cardDeck/JC.png',
+    $queenOfClubs = 'cardDeck/QC.png', $kingOfClubs = 'cardDeck/KC.png', $aceOfClubs = 'cardDeck/AC.png',
+    $twoOfDiamonds = 'cardDeck/2D.png', $threeOfDiamonds = 'cardDeck/3D.png', $fourOfDiamonds = 'cardDeck/4D.png',
+    $fiveOfDiamonds = 'cardDeck/5D.png', $sixOfDiamonds = 'cardDeck/6D.png', $sevenOfDiamonds = 'cardDeck/7D.png',
+    $eightOfDiamonds = 'cardDeck/8D.png', $nineOfDiamonds = 'cardDeck/9D.png', $tenOfDiamonds = 'cardDeck/10D.png',
+    $jackOfDiamonds = 'cardDeck/JD.png', $queenOfDiamonds = 'cardDeck/QD.png', $kingOfDiamonds = 'cardDeck/KD.png',
+    $aceOfDiamonds = 'cardDeck/AD.png',
+    ];
 
 // the deck of cards, arrayed as individual cards valued by card and value
 $deck = [
@@ -116,13 +81,6 @@ $deck = [
 // Shuffles deck
 shuffle($deck);
 
-$dealtCards = deal($deck);
-
-$card1 = $dealtCards[0];
-$card2 = $dealtCards[1];
-$card3 = $dealtCards[2];
-$card4 = $dealtCards[3];
-
 /**
  * Takes the shuffled deck and deals a new hand from the top 4 cards.
  *
@@ -130,13 +88,13 @@ $card4 = $dealtCards[3];
  *
  * @return array is the array containing the 4 cards drawn.
  */
-function deal($deck) {
+function deal(array $deck) : array {
     $card1 = array_pop($deck);
     $card2 = array_pop($deck);
     $card3 = array_pop($deck);
     $card4 = array_pop($deck);
-    $dealtCards = [$card1, $card2, $card3, $card4];
-    return $dealtCards;
+    $hand = [$card1, $card2, $card3, $card4];
+    return $hand;
 }
 
 /**
@@ -154,13 +112,12 @@ function handTotal(array $card1, array $card2) : int {
 /**
  * calculates the winner of the hand just player.
  *
- * @param $you int is the total value of player 'you's' cards from the hand just played.
- * @param $dealer int is the total value of player 'dealer's' cards from the hand just played.
+ * @param $you int is the total value of player 'you's' cards from the hand just dealt.
+ * @param $dealer int is the total value of player 'dealer's' cards from the hand just dealt.
  *
  * @return string is a conditional statement on the outcome of the hand.
  */
-function calculateWinner(int $you, int $dealer) : string
-{
+function calculateWinner(int $you, int $dealer) : string {
     if ($you == 21) {
         return 'BLACKJACK!!!!';
     } elseif ($you < 22 && $you > $dealer) {
@@ -168,16 +125,19 @@ function calculateWinner(int $you, int $dealer) : string
     } elseif ($you < 21 && $you == $dealer) {
         return 'DRAW';
     } else {
-        return 'DEALER WINS!';
+        return 'DEALER WINS';
     }
 }
+
+$dealtCards = deal($deck);
+
+$card1 = $dealtCards[0];
+$card2 = $dealtCards[1];
+$card3 = $dealtCards[2];
+$card4 = $dealtCards[3];
 
 $you = handTotal($card1, $card3);
 
 $dealer = handTotal($card2, $card4);
-
-echo "You scored: " . $you . "<br>";
-
-echo "Dealer scored: " . $dealer . "<br>";
 
 $winner = calculateWinner($you, $dealer);
