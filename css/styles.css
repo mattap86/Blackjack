@@ -53,7 +53,7 @@ body {
 .deck {
     width: 100%;
     height: 100%;
-    background-image: url("cardDeck/red_back.png");
+    background-image: url("../images/cardDeck/red_back.png");
     background-size: cover;
 }
 
@@ -71,6 +71,24 @@ body {
 
 .dealerCardHolder2, .playerCardHolder2 {
     right: 0;
+}
+
+.playerScore, .dealerScore, .winner {
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.dealerScore {
+    top: 40%;
+    left: 15%;
+}
+
+.winner {
+    top: 70%;
+    left: 15%;
 }
 
 img {
