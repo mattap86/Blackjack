@@ -74,8 +74,9 @@ body {
 }
 
 img {
-    width: 262px;
-    height: 402px;
+    width: 260px;
+    height: 400px;
+    padding: 2px 0 0 2px;
 }
 
 .results {
