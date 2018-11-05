@@ -26,8 +26,17 @@ body {
 
 .cardHolders {
     position: relative;
-    width: 560px;
+    width: 600px;
     height: 850px;
+}
+
+.playerName {
+    width: 50px;
+    height: 350px;
+    transform: rotate(90deg);
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .cardHolder, .deckHolderBorder {
@@ -42,6 +51,7 @@ body {
     top: 200px;
     left: 200px;
 }
+
 .deckHolder {
     position: absolute;
     top: 2px;
@@ -74,23 +84,22 @@ body {
 }
 
 .playerScore, .dealerScore, .winner {
+    width: 100%;
     font-size: 2em;
     font-weight: bold;
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
 }
 
 .dealerScore {
     top: 40%;
-    left: 15%;
 }
 
 .winner {
-    width: 50%;
-    top: 70%;
-    left: 25%;
-    text_align: center;
+    top: 75%;
 }
 
 img {

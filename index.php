@@ -33,6 +33,9 @@ require_once 'php/function.php';
                 <div class="cardHolder dealerCardHolder1">
                     <img src="images/<?php echo $card2['card']; ?>"/>
                 </div>
+                <div class="playerName">
+                    <p>DEALER</p>
+                </div>
                 <div class="cardHolder dealerCardHolder2">
                     <img src="images/<?php echo $card4['card']; ?>"/>
                 </div>
@@ -45,12 +48,12 @@ require_once 'php/function.php';
             </div>
             <div class="results">
                 <div class="playerScore">
-                    <p><b>PLAYER SCORE:</b></p>
-                    <p><?php echo $you; ?></p>
+                    <p><b>DEALER SCORE:</b></p>
+                    <p><?php echo '<br>' . $dealer; ?></p>
                 </div>
                 <div class="dealerScore">
-                    <p><b>DEALER SCORE:</b></p>
-                    <p> <?php echo $dealer; ?></p>
+                    <p><b>PLAYER SCORE:</b></p>
+                    <p> <?php echo '<br>' . $you; ?></p>
                 </div>
                 <div class="winner">
                     <p><b><?php echo $winner; ?></b></p>
