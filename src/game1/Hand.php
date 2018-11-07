@@ -11,11 +11,11 @@ class Hand
     public $p2Card2;
 
     /**
-     * Takes the shuffled deck and deals a new hand from the top 4 cards.
+     * Takes the shuffled $deck and deals a new Hand from the top 4 cards.
      *
-     * @param $shuffledDeck array is the array that $p1Card1 - $p2Card2 are to be 'dealt' from.
+     * @param array $shuffledDeck is where $p1Card1 - $p2Card2 are to be 'dealt' from.
      *
-     * @return array containing the 4 cards drawn.
+     * @return array $hand contains the 4 cards drawn.
      */
     public function drawHand(array $shuffledDeck) : array
     {
