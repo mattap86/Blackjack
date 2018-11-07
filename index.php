@@ -11,7 +11,7 @@
 * 6. Turn it all into functions.
 */
 
-require_once 'php/function.php';
+require_once 'php/functionCalls.php';
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +19,7 @@ require_once 'php/function.php';
 <head>
     <meta charset="UTF-8">
     <title>BLACKJACK</title>
+    <script src="js/deal.js" defer></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
@@ -26,6 +27,7 @@ require_once 'php/function.php';
         <div class="table">
             <div class="deckHolderBorder">
                 <div class="deckHolder">
+                    <button id="dealBtn">DEAL</button>
                     <div class="deck"></div>
                 </div>
             </div>
