@@ -10,7 +10,7 @@ class Hand
     public $p1Card2;
     public $p2Card2;
 
-    public function drawHand(array $shuffledDeck)
+    public function drawHand(array $shuffledDeck) : array
     {
         $this->p1Card1 = array_pop($shuffledDeck);
         $this->p2Card1 = array_pop($shuffledDeck);
