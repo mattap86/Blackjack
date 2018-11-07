@@ -16,5 +16,7 @@ class Hand
         $this->p2Card1 = array_pop($shuffledDeck);
         $this->p1Card2 = array_pop($shuffledDeck);
         $this->p2Card2 = array_pop($shuffledDeck);
+        $hand = [$this->p1Card1, $this->p2Card1, $this->p1Card2, $this->p2Card2];
+        return $hand;
     }
 }
