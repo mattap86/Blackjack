@@ -207,7 +207,9 @@ function handTotal(array $card1, array $card2) : int {
  * @return string is a conditional statement on the outcome of the hand.
  */
 function calculateWinner(int $you, int $dealer) : string {
-    if ($you == 21) {
+    if ($you == 21 && $dealer == 21) {
+        return 'PUSH';
+    } elseif ($you == 21) {
         return 'BLACKJACK!!!!';
     } elseif ($you < 22 && $you > $dealer) {
         return 'YOU WIN!!!';

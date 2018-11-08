@@ -11,7 +11,7 @@
 * 6. Turn it all into functions.
 */
 
-require_once 'php/functionCalls.php';
+require_once 'functionCalls.php';
 ?>
 
 <!DOCTYPE html>
